@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section  class="reg-page">
+        <h2>REGISTRATION PAGE</h2>
+        <form class="form-container"  novalidate>
+            <div>
+                <label>Username</label>
+                <div><input type="text" id="name"></div>
+                <div id="name-error" style=color:red ></div>
+            </div>
+            <div>
+                <label>Email</label>
+                <div><input type="email" id="email"></div>
+                <div id="email-error" style=color:red></div>
+            </div>
+            <div>
+                <label>password</label>
+                <div><input type="password" id="password"></div>
+                <div id="password-error" style=color:red></div>
+            </div>
+            <div>
+                <label>Confirm Password</label>
+                <div><input type="password" id="Cpassword"></div>
+                <div id="Cpassword-error" style=color:red></div>
+            </div>
+            <button id="btn" type="submit">Sign Up</button>
+        </form>
+
+
+    </section>
+
+ <script src="./index.js"></script>
+</body>
+</html>
